@@ -1,0 +1,92 @@
+body {
+    display: block;
+    margin: 98px;
+    background-image: url("/public/img/pattern.png");
+}
+
+.border {
+  border: 1px solid white;
+  padding: 10px;
+  background-color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: -3px;
+  right: 12px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  font
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.footer {
+   position: absolute;
+   left: -1px;
+   bottom: -275px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+  font-family: monospace;
+  padding: 16px;
+}
+
+#logo {
+      width: 50px;
+  float: right;
+  margin-right: 25px;
+}
+
+a {
+  color: #9562f3;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: monospace;
+  text-align: center;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.block {
+  width: 1300px;
+  height: 2px;
+  background: #e55d87; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+  background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+  background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  margin-bottom: 50px;
+}
